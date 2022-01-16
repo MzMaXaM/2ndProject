@@ -21,31 +21,41 @@ main{
   padding: 15px;
   border-radius: 9px;
 }
-main div{
+main section{
   width: 550px;
   margin: 25px auto;
 }
 ul{
   list-style: none;
-  padding: 0;
+  color: rgb(78, 14, 14);
+  padding: 10px;
+}
+li{
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+h2{
+  font-weight: bolder;
 }
 .hiLi{
   color: coral;
+  border-color: coral;
 }
-.htmlSummary h2{
+#htmlSummary{
   color: brown;
 }
-.cssSummary h2{
+#cssSummary{
   color: blue;
 }
 a{
   color: crimson;
   text-decoration: none;
-  background-color: rgb(173, 214, 201);
+  background-color: rgb(175, 215, 200);
   border-radius: 3px;
-  padding: 3px 12px;
+  padding: 2px 6px;
 }
 a:hover{
-  background-color: rgb(140, 194, 177);
+  background-color: rgb(165, 205, 190);
   text-decoration: line-through;
 }
