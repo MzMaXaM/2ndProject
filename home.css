@@ -1,0 +1,51 @@
+body{
+  background-color: #333;
+  text-align: center;
+  font-size: larger;
+  color: rgb(206, 215, 224);
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  margin-top: 50px;
+}
+header img{
+  width: 222px;
+  margin-bottom: 15px;
+}
+main{
+  color: rgb(50, 50, 50);
+  background-color: rgb(218, 218, 214);
+  width: 650px;
+  margin: 25px auto;
+  text-align: left;
+  padding: 15px;
+  border-radius: 9px;
+}
+main div{
+  width: 550px;
+  margin: 25px auto;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+.hiLi{
+  color: coral;
+}
+.htmlSummary h2{
+  color: brown;
+}
+.cssSummary h2{
+  color: blue;
+}
+a{
+  color: crimson;
+  text-decoration: none;
+  background-color: rgb(173, 214, 201);
+  border-radius: 3px;
+  padding: 3px 12px;
+}
+a:hover{
+  background-color: rgb(140, 194, 177);
+  text-decoration: line-through;
+}
